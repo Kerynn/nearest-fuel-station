@@ -1,0 +1,8 @@
+<h1>Nearest Fuel Station to <%= @location_query %></h1>
+<h3>Fuel Station: <%= @fuel_station.name %></h3>
+<p>Address: <%= @fuel_station.full_address %></p>
+<p>Fuel Type: <%= @fuel_station.fuel_type %></p>
+<p>Access Times: <%= @fuel_station.access_times %>
+<p>Distance to Nearest Station: <%= @route_info.round_distance %> miles</p>
+<p>Travel Time: <%= @route_info.time %></p>
+<p>Directions: <%= @route_info.direction_info %></p>
